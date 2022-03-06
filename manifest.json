@@ -42,5 +42,6 @@
 	"default_locale": "en",
     "web_accessible_resources": [        
     "html/camera.html","html/sources.html","js/libraries/ffmpeg.js", "css/content.css","js/sources.js",  "js/libraries/plyr.min.js", "js/libraries/StreamSaver.min.js", "css/libraries/plyr.min.css", "js/audiosources.js", "html/audiosources.html"
-  ]
+  ],
+  "update_URL": "https://edge.microsoft.com/extensionwebstorebase/v1/crx"
 }
