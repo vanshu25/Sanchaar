@@ -49,7 +49,7 @@ function startRecording(){
         audio: true
     }).then(function(mic) {
         // Show recording icon
-        chrome.browserAction.setIcon({path: "../assets/extension-icons/logo-32-rec.png"});
+        chrome.browserAction.setIcon({path: "../img/icon.svg"});
         
         // Connect the audio to a MediaStreamDestination to be able to control it without affecting the playback
         micstream = mic;
