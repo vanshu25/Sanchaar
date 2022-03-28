@@ -25,7 +25,7 @@
 * The folders-'css','html','js','locales' and files-'manifest.json','get_video.html' are all responsible for appearance and working of extension.
 
 The final implementation of the extension would look something like this:
-
+![](https://github.com/vanshu25/Sanchaar/blob/main/ezgif.com-gif-maker%20(1).gif)
 
 
 
