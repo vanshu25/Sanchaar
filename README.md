@@ -1,6 +1,4 @@
-<<<<<<< extension
-# web_vedion_capture-Chrome-Extension
-=======
+
 # Sanchaar
 Our project focus on digital accesiblity project has part of Microsoft's Prototype sprint for the Social Impact league Project (January to March quarter).
 
@@ -18,4 +16,4 @@ This project will remove the barrier for people who have a hearing impairment (d
 
 
 
->>>>>>> main
+
