@@ -7,5 +7,8 @@
 
 * These people communicate through sign langauge and unfortunately not everyone understands it. So, to remove this barrier, we thought of a solution where we aim to develop a browser extension which will enable the platforms like MS teams, Zoom, etc to convert the sign langauge into live subtitles(or caption) so that the communication can take place easily!
 
- ![](https://media.giphy.com/media/ilyluIFwD2Et5X5hzF/giphy.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/ilyluIFwD2Et5X5hzF/giphy.gif" alt="animated" />
+</p>
+ 
  
