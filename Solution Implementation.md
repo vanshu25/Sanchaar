@@ -1,7 +1,5 @@
 The implementation of project took pace in two parts: Extension development and building of Machine Learning model. Let's learn about them both in brief!
 
-<img src="https://www.marketing91.com/wp-content/uploads/2020/11/Project-Implementation.jpg" width="600" height="400" />
-
 * Javascript, html, and CSS is used to adjust the appearance of the extension. The main file of the extension is the 'manifest.json', it includes the version, name, description and decides extension's web authority.
 * 'popup.js' and 'popup.html' decides the appearance of the extension, that is what users will see when they click the extension on the web and 'detect.js' will call other files to detect the camera and open it.
 
@@ -11,7 +9,7 @@ The implementation of project took pace in two parts: Extension development and 
 <img src="https://github.com/vanshu25/Sanchaar/blob/main/MLmodel/Screenshot%20(621).png" width="500" height="400" />
 * Then we wrote some code in python to call this model and make predictions.
 Input image:
-<img src="https://github.com/vanshu25/Sanchaar/blob/main/MLmodel/hello.jpg" width="500" height="500" />
+<img src="https://github.com/vanshu25/Sanchaar/blob/main/MLmodel/hello.jpg" width="400" height="300" />
 Output image:
 <img src="https://github.com/vanshu25/Sanchaar/blob/main/MLmodel/output_hello.jpg" width="400" height="300" />
  
