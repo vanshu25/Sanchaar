@@ -1,5 +1,6 @@
 The implementation of project took pace in two parts: Extension development and building of Machine Learning model. Let's learn about them both in brief!
-<img src="https://github.com/vanshu25/Sanchaar/blob/main/MLmodel/sanchaar_flow.png" width="400" height="200" />
+
+<img src="https://github.com/vanshu25/Sanchaar/blob/main/MLmodel/sanchaar_flow.png" width="600" height="100" />
 
 
 * Javascript, html, and CSS is used to adjust the appearance of the extension. The main file of the extension is the 'manifest.json', it includes the version, name, description and decides extension's web authority.
