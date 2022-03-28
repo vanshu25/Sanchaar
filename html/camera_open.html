@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="jquery-2.1.1.js"></script>
+</head>
+
+<body>
+    <video id="video" width="500" height="300" autoplay></video>
+    <button id="open">打开摄像头</button>
+    <button id="snap">拍照</button>
+    <button id="close">关闭摄像头</button>
+    <canvas id="canvas" width="500" height="300"></canvas>
+    <script type="text/javascript">
+        var canvas = document.getElementById("canvas");
+        var context = canvas.getContext("2d");
+        var video = document.getElementById("video");
+        $(document).ready(function () {
+            $("#open").on("click", function () {
+                openVideo(video);
+            });
+            $("#snap").on("click", function () {
+                context.drawImage(video, 0, 0, 500, 300);
+            });
+            $("#close").on("click", function () {
+                closeVideo(video);
+            });
+        });
+        function openVideo(video) {
+            videoObj = {
+                "video": true
+            };
+            var errBack = function (error) {
+                console.log("Video capture error: ", error.code);
+            };
+            if (navigator.getUserMedia) { // Standard
+                navigator.getUserMedia(videoObj, function (stream) {
+                    video.srcObject = stream;
+                    video.play();
+                }, errBack);
+            } else if (navigator.webkitGetUserMedia) { // WebKit-prefixed
+                navigator.webkitGetUserMedia(videoObj, function (stream) {
+                    video.src = window.webkitURL.createObjectURL(stream);
+                    video.play();
+                }, errBack);
+            } else if (navigator.mozGetUserMedia) { // Firefox-prefixed
+                navigator.mozGetUserMedia(videoObj, function (stream) {
+                    video.src = window.URL.createObjectURL(stream);
+                    video.play();
+                }, errBack);
+            };
+        }
+        function closeVideo(video) {
+            if (!video) return;
+            let stream = video.srcObject
+            console.log(stream);
+            let tracks = stream.getTracks()
+            tracks.forEach(track => {
+                track.stop()
+            })
+            video.srcObject = null;
+        }
+    </script>
+</body>
+
+</html>
