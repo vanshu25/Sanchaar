@@ -6,7 +6,7 @@ The implementation of project took pace in two parts: Extension development and 
 
 * For the Computer Vision tasks, we used Microsoft Azure services. The dataset that we used here is a subset which we created from MS-ASL dataset, as proposed in MS-ASL: A Large-Scale Data Set and Benchmark for Understanding American Sign Language paper. This dataset originally consists of clips of 1000 words in ASL(American Sign Language). 
 * We performed data labelling in Azure and then we used Computer Vision services by Azure for training our model.
-<img src="https://github.com/vanshu25/Sanchaar/blob/main/MLmodel/Screenshot%20(621).png" width="500" height="400" />
+<img src="https://github.com/vanshu25/Sanchaar/blob/main/MLmodel/Screenshot%20(621).png" width="600" height="400" />
 * Then we wrote some code in python to call this model and make predictions.
 Input image:
 <img src="https://github.com/vanshu25/Sanchaar/blob/main/MLmodel/hello.jpg" width="400" height="300" />
