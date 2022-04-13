@@ -2,7 +2,7 @@
 # Sanchaar
 ![Logo](https://github.com/vanshu25/Sanchaar/blob/main/1%20(1).jpg)
 
-* Our project focus on digital accesiblity and is part of Microsoft's Prototype sprint for the Social Impact league Project (January to March quarter). 
+* Our project focuses on digital accessiblity and it is part of Microsoft's Prototype sprint for the Social Impact league Project (January to March quarter). 
 * ***Sanchaar is a Hindi word that means communication, which is exactly what this project aim at promoting***. 
 * The logo has been carefully designed to reflect the purpose of the project. The logo too reference from the ASL way of signing communication which looks like letter "C" going back and forth. A geometric(circle) overlapping to represent inclusive communication.
 
